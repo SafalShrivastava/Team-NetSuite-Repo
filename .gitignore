@@ -1,0 +1,12 @@
+# Ignore Node Modules
+node_modules/
+
+# Ignore NetSuite Credentials and Local Configs
+.env
+secret/
+.suitecloud
+*.token
+
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db   
